@@ -67,8 +67,9 @@ Araçlar ve Framework'ler Kullanımı:Uygulamanızı test etmek için uygun ara�
 framework'lerini kullanın. JUnit, TestNG, Selenium, Apache JMeter gibi araçlar test 
 sürecinizi destekleyebilir.
 
-<img width="572" alt="images" src="images/a.jpeg"> <br>
-<img width="572" alt="images" src="images/b.jpeg"> <br>
+# Sistem Mimarisi
+<img width="500" alt="images" src="images/a.jpeg"> <br>
+<img width="500" alt="images" src="images/b.jpeg"> <br>
 ### Yapılanlar
 
 - [x] Java programlama diliyle Taşıma (Transport) Katmanı gönderim fonksiyonlarını kullanarak 
@@ -89,7 +90,7 @@ kullanılmalıdır.) <br><br>
 <img width="572" alt="images" src="images/2.png"> <br>
 <img width="572" alt="images" src="images/3.png"> <br>
 <img width="572" alt="images" src="images/4.png"> <br>
-<img width="572" alt="images" src="images/5.png"> <br>
+<img width="572" alt="images" src="images/5.jpeg"> <br>
 
 Kayıt olma işlemi sırasında bu işleme geçersiz yanıtı aldık. Ekran görüntüsü yukarıda verilmiştir.
 
