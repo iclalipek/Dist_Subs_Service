@@ -83,7 +83,7 @@ sunucudan “55 TAMM” mesajı gelmesinden sonra) hizmet verdiği istemciye yan
 thread-safe sunmak zorundadır. (Kritik bölgelerde lock, synchronized vb. yapılar 
 kullanılmalıdır.) <br><br>
 
-<img width="572" src="file:///C:/Users/21060/Desktop/1-1.png"> <br>
+<img width="572" alt="images" src="file:///C:/Users/21060/Desktop/1-1.png"> <br>
 ![alt text](1-1.png)
 ![alt text](2-1.png)
 ![alt text](3-1.png)
