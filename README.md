@@ -84,9 +84,7 @@ thread-safe sunmak zorundadır. (Kritik bölgelerde lock, synchronized vb. yapı
 kullanılmalıdır.) <br><br>
 
 <img width="572" alt="images" src="images/1-1.png"> <br>
-![alt text](1-1.png)
-![alt text](2-1.png)
-![alt text](3-1.png)
+<img width="572" alt="images" src="iclalipek/Dist_Subs_Service/images/2-1.png"> <br>
 
 ### Ekip üyeleri
 
