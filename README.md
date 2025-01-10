@@ -56,25 +56,33 @@ modülünüzün doğru çalıştığından emin olmanıza yardımcı olacaktır.
 Entegrasyon Testleri:Sunucular arasındaki iletişimi ve işbirliğini test etmek için 
 entegrasyon testleri oluşturun. Farklı sunucular arasında doğru veri alışverişini kontrol 
 edin.
+
 Performans Testleri:Sunucularınızın ve uygulamanızın performansını test edin. Aynı anda 
 çok sayıda isteği işleyebilme kapasitesini, ağ trafiğini ve veri transferini değerlendirin. 
+
 Yük Testleri:Uygulamanıza aynı anda çok sayıda kullanıcının bağlanması ve işlem yapması 
 durumunu simüle eden yük testleri gerçekleştirin. Bu, uygulamanın dayanıklılığını ve yük 
 altında nasıl performans gösterdiğini değerlendirir. 
+
 Bağlantı Dayanıklılığı Testleri:Ağ bağlantılarındaki kopmalar veya hatalar durumunda 
 uygulamanın nasıl tepki verdiğini test edin. Bağlantı dayanıklılığını kontrol ederek 
 uygulamanın sağlamlığını artırabilirsiniz. 
+
 Güvenlik Testleri:Uygulamanızın güvenliğini değerlendirmek için güvenlik testleri 
 gerçekleştirin. Özellikle sunucu iletişimi sırasında veri güvenliği önemlidir. 
+
 Hata Senaryoları Testleri:Uygulamanızın hata durumlarına nasıl tepki verdiğini kontrol 
 edin. Hatalı girişler, sunucu kesintileri gibi senaryoları simüle ederek uygulamanın 
 istikrarını değerlendirin. 
+
 Bellek ve Kaynak Kullanım Testleri:Uygulamanın bellek kullanımını ve kaynakları doğru bir 
 şekilde yönetip yönetmediğini kontrol edin. Bellek sızıntıları ve kaynak tükenmeleri 
 konusunda testler yapın. 
+
 Uygulama Otomasyon Testleri:Özellikle sürekli entegrasyon (CI) ortamlarında kullanılmak 
 üzere otomasyon testleri geliştirin. Otomasyon, tekrarlanabilir ve sürekli bir test sürecini 
 destekler. 
+
 Araçlar ve Framework'ler Kullanımı:Uygulamanızı test etmek için uygun araçlar ve test 
 framework'lerini kullanın. JUnit, TestNG, Selenium, Apache JMeter gibi araçlar test 
 sürecinizi destekleyebilir.
@@ -82,7 +90,8 @@ sürecinizi destekleyebilir.
 # Sistem Mimarisi
 <img width="500" alt="images" src="images/a.jpeg"> <br>
 <img width="500" alt="images" src="images/b.jpeg"> <br>
-### Yapılanlar
+
+### İstenilenler
 
 - [x] Java programlama diliyle Taşıma (Transport) Katmanı gönderim fonksiyonlarını kullanarak 
 dağıtık bir abonelik sistemi geliştirmeniz beklenmektedir.
@@ -97,6 +106,25 @@ sunucudan “55 TAMM” mesajı gelmesinden sonra) hizmet verdiği istemciye yan
 - [x] Her sunucu concurrent (eşzamanlı) istemci erişimi sırasında bünyesindeki listelere erişimi 
 thread-safe sunmak zorundadır. (Kritik bölgelerde lock, synchronized vb. yapılar 
 kullanılmalıdır.) <br><br>
+
+# YAPILACAKLAR 
+1- Hali hazırda birbirine ping atan 3 adet sunucu (Server1.class, Server2.class, Server3.class) 
+sunuculara istek gönderen bir istemci (Client.class) kodu paylaşılmııştır. 
+
+2- Paylaşılan sunucu uygulaması, gelen her istek için yeni bir thread açmaktadır. 
+
+3- Sunucuların kendilerinde bir örneğini tutacakları Aboneler.class sınıfı da paylaşılmıştır. 
+Sunucular, istemcilerden gelen talepler doğrultusunda listeleri güncellendiğinde diğer 
+sunuculara bu nesneyi göndererek haberdar etmelidirler.
+
+# KONTROL LİSTESİ 
+- [x] Sunucular, ABONE OLMA ve İPTAL etme isteklerine göre listelere ekleme çıkarma yapıp, uygun cevap dönüyor mu?(
+- [x] Sunucular, GİRİŞ/ÇIKIŞ isteklerine göre listelere ekleme çıkarma ve uygun cevap veriyor mu? 
+- [x] Sunucular, güncel listeyi birbirlerine gönderiyor mu? 
+- [x] Sunucular, kendi aralarında serileşmiş nesne ile haberleşip, uygun cevap dönüyor mu? 
+- [x] Sunucular, birbirine farklı bir nesneyi gönderildiğinde “99 HATA” dönüyor mu? 
+- [x] Sunucular, istemciye cevap dönmeyi birbirini haberdar ettikten sonra mı yapıyor? 
+
 
 <img width="572" alt="images" src="images/1-1.png"> <br>
 <img width="572" alt="images" src="images/2.png"> <br>
