@@ -99,5 +99,5 @@ Kayıt olma işlemi sırasında bu işleme geçersiz yanıtı aldık. Ekran gör
 - 21060665, Eylül Ülgen
 
 ### Sunum Videosu Linki
-
+https://youtu.be/S1myZs8PQr8
 
