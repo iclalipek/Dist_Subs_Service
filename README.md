@@ -1,6 +1,6 @@
 # Dağıtık Abonelik Sistemi (Distributed Subscriber Service)
 1- Sunucuların daha hızlı haberleşmesi için gönderilen nesne üzerinde yaptığınız iyileştirmeleri 
-yazınız.  - - 
+yazınız.  
 Object Serialization (Nesne Serileştirme): Nesnelerin doğrudan serileştirilip gönderilmesi, 
 metin tabanlı bir protokol yerine daha etkili olabilir. Bu, nesne üzerinde işlem yapmadan 
 önce tüm sunucular arasında aynı veri formatını kullanmanıza olanak tanır. 
@@ -9,7 +9,7 @@ tutmak, bağlantı kurma ve sonlandırma maliyetlerini azaltabilir. Bu, veri al�
 sırasında bağlantı kurmak yerine aynı bağlantı üzerinden iletişim kurmayı içerir. 
 
 2- Sunucuların nesneleri serileştirme performansını artırmak için yaptığınız iyileştirmeleri ve 
-araştırmaları yazınız. - - - - - - - - - 
+araştırmaları yazınız. 
 Binary Protokollerin Kullanılması:JSON ve XML gibi metin tabanlı veri formatları yerine, 
 binary protokollerin kullanılması performansı artırabilir. Örneğin, Google'ın Protocol 
 Buffers veya Apache Thrift gibi binary serileştirme kütüphaneleri bu konuda etkilidir. 
@@ -37,13 +37,13 @@ Profiling ve Monitoring:Uygulama üzerinde profiling ve monitoring yaparak, perf
 sorunlarını tespit edebilir ve iyileştirmeler için odaklanılacak alanları belirleyebilirsiniz
 
 3- Varsa uygulamanızı test etmek için yaptığınız testleri ve proje ile ilgili eklemek istediklerinizi 
-yazınız. - 
+yazınız. 
 Birim Testleri (Unit Tests):Temel işlevleri test etmek için birim testleri yazın. Bu, her bir 
 modülünüzün doğru çalıştığından emin olmanıza yardımcı olacaktır. 
-- 
+
 Entegrasyon Testleri:Sunucular arasındaki iletişimi ve işbirliğini test etmek için 
 entegrasyon testleri oluşturun. Farklı sunucular arasında doğru veri alışverişini kontrol 
-edin. - - - - - - - - 
+edin.
 Performans Testleri:Sunucularınızın ve uygulamanızın performansını test edin. Aynı anda 
 çok sayıda isteği işleyebilme kapasitesini, ağ trafiğini ve veri transferini değerlendirin. 
 Yük Testleri:Uygulamanıza aynı anda çok sayıda kullanıcının bağlanması ve işlem yapması 
