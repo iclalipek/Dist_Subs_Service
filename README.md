@@ -91,6 +91,8 @@ kullanılmalıdır.) <br><br>
 <img width="572" alt="images" src="images/4.png"> <br>
 <img width="572" alt="images" src="images/5.png"> <br>
 
+Kayıt olma işlemi sırasında bu işleme geçersiz yanıtı aldık. Ekran görüntüsü yukarıda verilmiştir.
+
 ### Ekip üyeleri
 
 - 21060644, İclal Gül İpek
