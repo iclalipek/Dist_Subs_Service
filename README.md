@@ -67,6 +67,8 @@ Araçlar ve Framework'ler Kullanımı:Uygulamanızı test etmek için uygun ara�
 framework'lerini kullanın. JUnit, TestNG, Selenium, Apache JMeter gibi araçlar test 
 sürecinizi destekleyebilir.
 
+<img width="572" alt="images" src="images/a.jpeg"> <br>
+<img width="572" alt="images" src="images/b.jpeg"> <br>
 ### Yapılanlar
 
 - [x] Java programlama diliyle Taşıma (Transport) Katmanı gönderim fonksiyonlarını kullanarak 
