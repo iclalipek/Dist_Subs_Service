@@ -84,9 +84,7 @@ thread-safe sunmak zorundadır. (Kritik bölgelerde lock, synchronized vb. yapı
 kullanılmalıdır.) <br><br>
 
 <img width="572" alt="images" src="images/1-1.png"> <br>
-<img width="572" alt="images" src="images/2-1.png"> <br>
 <img width="572" alt="images" src="images/2.png"> <br>
-<img width="572" alt="images" src="images/3-1.png"> <br>
 <img width="572" alt="images" src="images/3.png"> <br>
 <img width="572" alt="images" src="images/4.png"> <br>
 <img width="572" alt="images" src="images/5.png"> <br>
